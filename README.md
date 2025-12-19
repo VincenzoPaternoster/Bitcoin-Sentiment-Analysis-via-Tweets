@@ -10,8 +10,8 @@ In addition, user engagement on social media and any correlation with the price 
 project/
 │── data/
 │── images/
-│── notebook.ipynb # Notebook principale
-|__ README.md # Documentazione
+│── python/ ## contains notebook
+|__ README.md
 ```
 ---
 
