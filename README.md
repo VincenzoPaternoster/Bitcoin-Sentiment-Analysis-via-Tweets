@@ -1,13 +1,9 @@
-# Bitcoin Sentiment Analysis via Tweets
+# 📌 Bitcoin Sentiment Analysis via Tweets
 The aim of the project is to perform sentiment analysis on the collected data and understand how opinions about Bitcoin vary over time. 
 In addition, user engagement on social media and any correlation with the price of Bitcoin will be evaluated.
-
-# 📌 Titolo del Progetto
-Breve descrizione del progetto: cosa hai analizzato, perché è utile e qual è l’obiettivo principale.
-
 ---
 
-## 📂 Struttura del Repository
+## 📂 Repository Structure
 
 project/
 │── data/ # Dataset (se pubblico)
