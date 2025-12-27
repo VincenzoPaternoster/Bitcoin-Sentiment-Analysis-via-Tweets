@@ -266,7 +266,7 @@ print(neg_pd.describe())
 print(pos_pd[["likes","replies","retweets"]].quantile([0.25,0.5,0.75,0.90,0.95,0.99]))
 print(neg_pd[["likes","replies","retweets"]].quantile([0.25,0.5,0.75,0.90,0.95,0.99]))
 
-
+"""
 ##### **Graphs**
 """
 ## Show the two distributions
@@ -318,15 +318,15 @@ plt.ylim(1,100000)
 plt.grid(True)
 plt.show()
 
-
+"""
 ## 3. Third request
 
 - Verify whether the fluctuation in the value of Bitcoin affects the change in sentiment in tweets about Bitcoin.
-"""
 
 ## Upload bitcoin dataset
 ## This dataset shows the value of bitcoin by date.
 ## For each date, the opening, closing, maximum and minimum values and volume are shown.
+"""
 
 ### Upload dataset using pandas dataframe
 df_bit=pd.read_csv(r"https://raw.githubusercontent.com/Profession-AI/progetti-big-data/refs/heads/main/Analisi%20del%20consenso%20sul%20Bitcoin/BTC-USD.csv")
