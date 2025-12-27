@@ -1,0 +1,6 @@
+*.py linguist-language=Python
+*.py linguist-detectable=true
+
+Dataset/* linguist-vendored
+*.txt linguist-vendored
+*.ipynb linguist-vendored
